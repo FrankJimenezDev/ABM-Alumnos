@@ -1,0 +1,5 @@
+Frank Jose;Jimenez Pacheco;3/8/1996;96421355;Ingenieria en Sistemas;8.00
+Carlos;Olivero;12/7/1996;91239124;Ingenieria en sistemas;9.20
+Freddy;Juniro;17/2/1995;8654123;Administracion Financiera;7.94
+Juan;Jimenez;2/10/2025;1234567;No tiene;0
+Maria;De las Nieves;10/6/2020;2134123;administracion;4.00

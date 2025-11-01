@@ -1,0 +1,16 @@
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\bin\Debug\net8.0-windows\ABMAlumnos.exe
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\bin\Debug\net8.0-windows\ABMAlumnos.deps.json
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\bin\Debug\net8.0-windows\ABMAlumnos.runtimeconfig.json
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\bin\Debug\net8.0-windows\ABMAlumnos.dll
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\bin\Debug\net8.0-windows\ABMAlumnos.pdb
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.FormAlumnos.resources
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.csproj.GenerateResource.cache
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.AssemblyInfoInputs.cache
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.AssemblyInfo.cs
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.csproj.CoreCompileInputs.cache
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.dll
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\refint\ABMAlumnos.dll
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.pdb
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.genruntimeconfig.cache
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ref\ABMAlumnos.dll
