@@ -14,3 +14,4 @@ C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\
 C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.pdb
 C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.genruntimeconfig.cache
 C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ref\ABMAlumnos.dll
+C:\Users\frank\Documents\c#_proyects\ABMAlumnos\ABMAlumnos\ABMAlumnos\obj\Debug\net8.0-windows\ABMAlumnos.sourcelink.json

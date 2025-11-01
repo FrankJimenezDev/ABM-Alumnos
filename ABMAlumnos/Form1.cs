@@ -5,6 +5,7 @@ namespace ABMAlumnos
     public partial class FormAlumnos : Form
     {
         List<Alumno> listaAlumnos = new List<Alumno>();
+
         public FormAlumnos()
         {
             InitializeComponent();
@@ -89,7 +90,7 @@ namespace ABMAlumnos
             }
         }
 
-        
+
 
         private void SelectAlumno(object sender, EventArgs e)
         {
@@ -141,6 +142,28 @@ namespace ABMAlumnos
             var personaSeleccionada = dataGridViewAlumnos.SelectedRows[0].DataBoundItem as Alumno;
             listaAlumnos.Remove(personaSeleccionada);
             RefreshDataGridView();
+        }
+
+        private void buttonBuscar_Click(object sender, EventArgs e)
+        {
+            var legajo = numericUpDownBusquedaLegajo.Value;
+            var alumno = listaAlumnos.Find(alumno => alumno.legajo == legajo);
+            if (alumno != null)
+            {
+                dataGridViewAlumnos.DataSource = null;
+                dataGridViewAlumnos.DataSource = new List<Alumno>() { alumno };
+            }
+            else
+            {
+                MessageBox.Show("Alumno no encontrado.");
+            }
+        }
+
+        private void buttonLimpiar_Click(object sender, EventArgs e)
+        {
+            dataGridViewAlumnos.DataSource = null;
+            dataGridViewAlumnos.DataSource = listaAlumnos;
+            ClearForm();
         }
     }
 }

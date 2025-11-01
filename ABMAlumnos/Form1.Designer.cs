@@ -51,6 +51,7 @@ namespace ABMAlumnos
             button1 = new Button();
             label1 = new Label();
             labelCountAlumnos = new Label();
+            buttonLimpiar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAlumnos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownLegajo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownPromedio).BeginInit();
@@ -202,7 +203,7 @@ namespace ABMAlumnos
             // labelBusquedaLegajo
             // 
             labelBusquedaLegajo.AutoSize = true;
-            labelBusquedaLegajo.Location = new Point(604, 18);
+            labelBusquedaLegajo.Location = new Point(505, 15);
             labelBusquedaLegajo.Name = "labelBusquedaLegajo";
             labelBusquedaLegajo.Size = new Size(153, 25);
             labelBusquedaLegajo.TabIndex = 17;
@@ -210,7 +211,7 @@ namespace ABMAlumnos
             // 
             // numericUpDownBusquedaLegajo
             // 
-            numericUpDownBusquedaLegajo.Location = new Point(763, 16);
+            numericUpDownBusquedaLegajo.Location = new Point(664, 13);
             numericUpDownBusquedaLegajo.Maximum = new decimal(new int[] { 99999999, 0, 0, 0 });
             numericUpDownBusquedaLegajo.Name = "numericUpDownBusquedaLegajo";
             numericUpDownBusquedaLegajo.Size = new Size(220, 31);
@@ -218,12 +219,13 @@ namespace ABMAlumnos
             // 
             // buttonBuscar
             // 
-            buttonBuscar.Location = new Point(1040, 9);
+            buttonBuscar.Location = new Point(893, 8);
             buttonBuscar.Name = "buttonBuscar";
             buttonBuscar.Size = new Size(141, 42);
             buttonBuscar.TabIndex = 19;
             buttonBuscar.Text = "Buscar";
             buttonBuscar.UseVisualStyleBackColor = true;
+            buttonBuscar.Click += buttonBuscar_Click;
             // 
             // button1
             // 
@@ -253,11 +255,22 @@ namespace ABMAlumnos
             labelCountAlumnos.TabIndex = 22;
             labelCountAlumnos.Text = "0";
             // 
+            // buttonLimpiar
+            // 
+            buttonLimpiar.Location = new Point(1040, 8);
+            buttonLimpiar.Name = "buttonLimpiar";
+            buttonLimpiar.Size = new Size(141, 42);
+            buttonLimpiar.TabIndex = 23;
+            buttonLimpiar.Text = "Limpiar";
+            buttonLimpiar.UseVisualStyleBackColor = true;
+            buttonLimpiar.Click += buttonLimpiar_Click;
+            // 
             // FormAlumnos
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1193, 522);
+            Controls.Add(buttonLimpiar);
             Controls.Add(labelCountAlumnos);
             Controls.Add(label1);
             Controls.Add(button1);
@@ -315,5 +328,6 @@ namespace ABMAlumnos
         private Button button1;
         private Label label1;
         private Label labelCountAlumnos;
+        private Button buttonLimpiar;
     }
 }
